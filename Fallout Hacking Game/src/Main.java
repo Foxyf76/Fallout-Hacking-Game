@@ -61,7 +61,7 @@ public class Main {
                 break;
             case 5:
                 min = 4;
-                max = 13;
+                max = 15;
                 rand = random.nextInt(max - min + 1) + min;
                 System.out.println("Word length is: " + rand + " & number of words is: " + 15);
                 pullWords(rand, 15);
